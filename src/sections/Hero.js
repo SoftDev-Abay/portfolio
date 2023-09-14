@@ -38,8 +38,8 @@ const Hero = () => {
       </div>
 
       <div
-        className="absolute flex flex-wrap w-[600px] h-[560px] max-sm:w-[500px] max-sm:right-0 max-sm:left-0 
-       max-lg:right-[50px] right-[100px] top-[90px] z-10 overflow-hidden"
+        className="2xl:right-[400px] absolute flex flex-wrap w-[600px] h-[560px] max-sm:w-[500px] max-sm:right-0 max-sm:left-0 
+       max-lg:right-[50px] right-[100px] top-[90px] z-10 overflow-hidden max-[580px]:w-[400px] max-[580px]:right-[0px]"
       >
         {dots}
       </div>
