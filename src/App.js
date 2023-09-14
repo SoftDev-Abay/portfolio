@@ -17,9 +17,9 @@ function App() {
     <div className={`p-0 m-0 bg-gray-300 grid grid-cols-main-grid-structure ${isOpenProjectModal && "fixed"}`}>
       <ProjectModal isOpen={isOpenProjectModal} modalHandlier={ProjectModalHandlier}  />
       <SideNav />
-      <main className="relative bg-[#111111] ">
+      <main id="top" className="relative bg-[#111111] ">
         <Navbar />
-        <section id="hero" className="max-md:mt-[80px] mt-[140px]">
+        <section  className="max-md:mt-[80px] mt-[140px]">
           <Hero />
         </section>
         <section id="about" className="mt-[300px]">

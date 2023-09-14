@@ -29,11 +29,11 @@ const Hero = () => {
             pretty cool companies. I also teach people to paint online (incase
             you've got an empty canvas layin' around 🎨). Let's connect!
           </p>
-          <div>
+          <a href="#contact">
             <button className="mt-[24px] rounded-md py-[10px] px-[22px] bg-neon text-xl relative z-20">
               Contact me
             </button>
-          </div>
+          </a>
         </div>
       </div>
 
