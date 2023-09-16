@@ -15,27 +15,27 @@ const Project = ({
 }) => {
   return (
     <div className="flex flex-col ">
-        <div
-          onClick={() => {
-            modalHandlier({
-              live,
-              github,
-              bigText,
-              tech,
-              imgUrl,
-              name,
-            });
-          }}
-          className=" cursor-pointer relative overflow-hidden rounded-xl bg-[#232323]  group"
-        >
-          <img
-            className=" h-[232px] rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
-            src={imgUrl}
-            alt=""
-          />
-        </div>
+      <div
+        onClick={() => {
+          modalHandlier({
+            live,
+            github,
+            bigText,
+            tech,
+            imgUrl,
+            name,
+          });
+        }}
+        className=" cursor-pointer relative overflow-hidden rounded-xl bg-[#232323]  group"
+      >
+        <img
+          className=" h-[232px] rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
+          src={imgUrl}
+          alt=""
+        />
+      </div>
 
-        <SlideReveal childrenWidth="100%" childrenOverflow="hidden">
+      <SlideReveal childrenWidth="100%" childrenOverflow="hidden">
         <div className="flex justify-between items-center gap-3 mt-5">
           <h1
             className="text-[#ebecf3] text-2xl font-extrabold 
@@ -45,17 +45,15 @@ const Project = ({
           </h1>
           <hr className="border-t-0 border-b w-4/5 border-b-[#adadad]" />
           <div className="flex justify-between gap-4 ">
-            <FaGithub
-              href={github}
-              className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer"
-            />
-            <FaExternalLinkAlt
-              href={live}
-              className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer"
-            />
+            <a href={github}>
+              <FaGithub className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer" />
+            </a>
+            <a href={live}>
+              <FaExternalLinkAlt className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer" />
+            </a>
           </div>
         </div>
-        </SlideReveal>
+      </SlideReveal>
 
       <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
         <p className="text-neon text-lg font-medium mt-3.5">{tech}</p>
