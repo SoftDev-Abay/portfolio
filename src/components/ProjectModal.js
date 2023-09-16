@@ -8,16 +8,19 @@ const ProjectModal = ({ isOpen,modalHandlier }) => {
   return (
     <>
       {isOpen && (
-        <div className="fixed flex items-center justify-center top-0 left-0 w-full h-full backdrop-blur-md z-50 overflow-y-scroll">
-          <div className="absolute top-3 right-3 cursor-pointer" onClick={()=>{modalHandlier(false)}}>
-            <AiOutlineClose className="text-slate-gray text-xl font-extrabold" />
+        <div className="flex flex-col">
+
+       
+          <div className="relative top-3 right-3 cursor-pointer z-[301] flex justify-end w-full" onClick={()=>{modalHandlier(false)}}>
+            <AiOutlineClose className="text-slate-gray text-xl font-extrabold mr-4 max-[440px]:mr-[10%] max-[402px]:mr-[30%]" />
           </div>
-          <div className="modal-container flex justify-center relative top-44   ">
-            <div className="modal min-w-[40%] w-[700px] max-w-[90%]  m-auto h-fit min-h-[550px]">
+        <div className="fixed flex items-center justify-center top-0 left-0 w-full h-full backdrop-blur-md z-[300] overflow-y-scroll">
+          <div className="modal-container flex justify-center relative top-44 min-h-[1050px]  max-lg:min-h-[1300px]  ">
+            <div className="relative max-sm:w-[90%]  modal max-lg:w-[500px] max-w-[700px] max-sm:mt-60 max-md:mt-44 md:mt-44 lg:mt-[42px]   m-auto h-fit ">
               <div className="flex flex-col bg-[#232323] rounded-xl">
-                <div className="relative overflow-hidden rounded-t-xl bg-[#232323]">
+                <div className="relative overflow-hidden rounded-t-xl bg-[#232323] ">
                   <img
-                    className=" rounded-t-lg relative"
+                    className=" rounded-t-lg relative object-fill sm:min-h-[350px] max-[400px]:object-contain  "
                     src={isOpen.imgUrl}
                     alt=""
                   />
@@ -25,16 +28,16 @@ const ProjectModal = ({ isOpen,modalHandlier }) => {
                 <div className="p-5">
                   <div className="flex justify-between items-center gap-3 mt-5">
                     <h1
-                      className="text-[#ebecf3] text-4xl font-extrabold 
+                      className="text-[#ebecf3] text-4xl font-extrabold max-sm:text-2xl
            relative z-20 "
                     >
                       {isOpen.name}
                     </h1>
                   </div>
-                  <p className="text-neon text-lg font-medium mt-3.5">
+                  <p className="text-neon text-lg font-medium mt-3.5 max-sm:text-base">
                     {isOpen.tech}
                   </p>
-                  <p className="text-[#c0c1c7] text-lg mt-5">
+                  <p className="text-[#c0c1c7] text-lg mt-5 whitespace-pre-line max-sm:text-sm ">
                     {isOpen.bigText}
                   </p>
                   <div className="mt-5">
@@ -58,6 +61,7 @@ const ProjectModal = ({ isOpen,modalHandlier }) => {
               </div>
             </div>
           </div>
+        </div>
         </div>
       )}
     </>

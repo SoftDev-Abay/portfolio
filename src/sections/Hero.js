@@ -1,4 +1,6 @@
 import React from "react";
+import SlideReveal from "../Framer/SlideReveal";
+import Reveal from "../Framer/Reveal";
 
 const Hero = () => {
   const dots = [];
@@ -17,23 +19,31 @@ const Hero = () => {
     <>
       <div className="flex relative justify-center ">
         <div className="flex flex-col max-w-[902px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] max-xl:mr-0 xl:mr-[200px]">
-          <h1 className="text-[#ebecf3] max-md:text-6xl text-8xl font-extrabold tracking-tighter relative z-20">
-            Hey, I'm Abay<span className="text-neon">.</span>
-          </h1>
-          <h3 className="text-4xl mt-7 font-normal text-[#ebecf3] relative z-20">
-            I'm a{" "}
-            <span className="font-bold text-neon">Full Stack Developer</span>
-          </h3>
-          <p className="mt-[24px] text-[#c0c1c7] text-lg relative z-20">
-            I've spent the last 5 years building and scaling software for some
-            pretty cool companies. I also teach people to paint online (incase
-            you've got an empty canvas layin' around 🎨). Let's connect!
-          </p>
-          <a href="#contact">
-            <button className="mt-[24px] rounded-md py-[10px] px-[22px] bg-neon text-xl relative z-20">
-              Contact me
-            </button>
-          </a>
+          <Reveal >
+            <h1 className="text-[#ebecf3] max-md:text-6xl text-8xl font-extrabold tracking-tighter relative z-20 mb-7">
+              Hey, I'm Abay<span className="text-neon">.</span>
+            </h1>
+          </Reveal>
+          <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
+            <h3 className="text-4xl  font-normal text-[#ebecf3] relative z-20">
+              I'm a{" "}
+              <span className="font-bold text-neon">Full Stack Developer</span>
+            </h3>
+          </SlideReveal>
+          <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
+            <p className="mt-[24px] text-[#c0c1c7] text-lg relative z-20">
+              I've spent the last 2 years building some pretty cool websites. I
+              also play pingpog aad tennis (incase you've got spare time to
+              play🏓). Let's connect!
+            </p>
+          </SlideReveal>
+          <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
+            <a href="#contact">
+              <button className="mt-[24px] rounded-md py-[10px] px-[22px] bg-neon text-xl relative z-20">
+                Contact me
+              </button>
+            </a>
+          </SlideReveal>
         </div>
       </div>
 
