@@ -50,7 +50,7 @@ const About = () => {
                 childrenWidth="fit-content"
                 childrenOverflow="hidden"
               >
-                Currently, I am working for myself for honing my skills building
+                Currently, I am working for myself honing my skills building
                 websites for customers directly. I also take online courses for
                 React, while studying at my university,👨🏻‍🎓 going deeper into best
                 practices and familiarizing myself with new programming

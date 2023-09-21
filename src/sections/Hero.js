@@ -33,7 +33,7 @@ const Hero = () => {
           <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
             <p className="mt-[24px] text-[#c0c1c7] text-lg relative z-20">
               I've spent the last 2 years building some pretty cool websites. I
-              also play pingpog aad tennis (incase you've got spare time to
+              also play ping-pong and tennis (incase you've got spare time to
               play🏓). Let's connect!
             </p>
           </SlideReveal>
