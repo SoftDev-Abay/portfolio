@@ -17,9 +17,9 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex relative justify-center ">
-        <div className="flex flex-col max-w-[902px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] max-xl:mr-0 xl:mr-[200px]">
-          <Reveal >
+      <div className="flex relative justify-center h-screen items-center ">
+        <div className="relative flex flex-col max-w-[902px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] max-xl:mr-0 xl:mr-[200px]">
+          <Reveal>
             <h1 className="text-[#ebecf3] max-md:text-6xl text-8xl font-extrabold tracking-tighter relative z-20 mb-7">
               Hey, I'm Abay<span className="text-neon">.</span>
             </h1>
@@ -44,14 +44,13 @@ const Hero = () => {
               </button>
             </a>
           </SlideReveal>
+          <div
+            className="absolute flex flex-wrap w-[600px] h-[560px] max-[760px]:w-full  max-[760px]:right-0 
+       max-lg:right-[50px] right-[0px] top-[-100px] z-10 overflow-hidden  max-[580px]:right-[0px]"
+          >
+            {dots}
+          </div>
         </div>
-      </div>
-
-      <div
-        className="2xl:right-[400px] absolute flex flex-wrap w-[600px] h-[560px] max-sm:w-[500px] max-sm:right-0 max-sm:left-0 
-       max-lg:right-[50px] right-[100px] top-[90px] z-10 overflow-hidden max-[470px]:w-[300px] max-[580px]:w-[400px] max-[580px]:right-[0px]"
-      >
-        {dots}
       </div>
     </>
   );
