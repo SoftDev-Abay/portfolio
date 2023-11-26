@@ -14,11 +14,7 @@ function App() {
     setIsOpenProjectModal(value);
   };
   return (
-    <div
-      className={`p-0 m-0 bg-gray-300 grid grid-cols-main-grid-structure ${
-        isOpenProjectModal && "fixed"
-      }`}
-    >
+    <div className={`p-0 m-0 bg-gray-300 grid grid-cols-main-grid-structure`}>
       <SideNav />
       <main id="top" className="relative bg-[#111111] ">
         <ProjectModal
