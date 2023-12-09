@@ -60,7 +60,7 @@ const ProjectModal = ({ isOpen, modalHandlier }) => {
                         source code
                       </a>
                       <a
-                        href=""
+                        href={isOpen.live}
                         className="gap-2 flex text-neon font-medium text-base items-center"
                       >
                         <FaExternalLinkAlt
