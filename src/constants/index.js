@@ -35,6 +35,24 @@ export const projects = [
     live: "https://ri-ecommerce.vercel.app/",
   },
   {
+  name: "Projects.app",
+  imgUrl: portfolioURl,
+  tech: "React - Node - Socket.IO - SCSS",
+  smallText: "
+Project Management and Collaboration Platform with Real-Time Messaging",
+  bigText: `Built with React, Node.js, Socket.IO, and SCSS, Projects.app is a project management solution demonstrating my skills in full-stack web development. It empowers teams to organize tasks efficiently and communicate seamlessly through real-time messaging.
+
+  Features:
+  - Intuitive task management
+  - Real-time chat for team collaboration
+  - Responsive design for optimal user experience
+  - Dynamic drag-and-drop functionality
+
+  This project showcases my ability to deliver practical solutions with a modern tech stack, creating a user-friendly platform for effective project collaboration.`,
+  github: "https://github.com/SoftDev-Abay/projects_web/commit/fe0f9c1efefd15ccbc383a2042d1f514a29e8f57",
+    live: "https://projects-webapp.vercel.app/login",
+},
+  {
     name: "Courses.app",
     imgUrl: coursesURl,
     tech: "PHP - SQL - HTMl - MySQL",
@@ -63,6 +81,10 @@ export const projects = [
     github: "https://github.com/SoftDev-Abay/portfolio.git",
     live: "https://abay-portfolio.vercel.app/",
   },
+
+
+
+
 ];
 
 export const experience = [
