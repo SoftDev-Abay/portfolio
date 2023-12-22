@@ -104,12 +104,12 @@ export const experience = [
     ],
   },
   {
-    compamyName: "ТОО Documentolog",
-    position: "Frontend Developer",
-    location: "Astana",
-    date: "2022 - 2023",
-    text: "I enhanced user interfaces and introduced new features, resulting in a better user experience. Focused on optimizing design and streamlining internal processes, ultimately contributing to improved efficiency and user satisfaction.",
-    tech: ["Javascript", "React", "CSS", "HTML", "GitHub", "Git"],
+    compamyName: "Your company here",
+    position: "Full Stack Developer",
+    location: "Anywhere",
+    date: "Anytime - Present",
+    text: "I will bring my expertise in front-end development to your company, where I'll work diligently to create visually appealing and user-friendly interfaces.",
+    tech: ["Javascript", "Next", "React", "SCSS", "HTML", "I", "CAN", "LEARN"],
   },
   {
     compamyName: "Your company here",
