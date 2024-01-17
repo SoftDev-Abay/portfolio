@@ -1,3 +1,43 @@
+/* .button-animation {
+  animation: pulse 1s infinite;
+}
+
+.button-animation::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(53, 187, 53);
+  border-radius: 6px;
+  z-index: -1;
+  transition: 0.3s;
+  animation: animate 2s linear infinite;
+}
+.button-animation::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  border-radius: 6px;
+  background-color: rgb(10 255 157 / var(--tw-bg-opacity));
+  z-index: 1;
+}
+
+.button-animation:hover::before {
+  scale: 1.4;
+} */
+
+@keyframes animate {
+  50% {
+    filter: hue-rotate(350deg);
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

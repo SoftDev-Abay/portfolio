@@ -9,8 +9,15 @@ import {
 } from "react-icons/fa";
 import SlideReveal from "../Framer/SlideReveal";
 import Reveal from "../Framer/Reveal";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t, i18n } = useTranslation("global");
+
+  const descriptionParagraphs = t("about.description", { returnObjects: true });
+  const workStackItems = t("about.workStack.items", { returnObjects: true });
+  const funStackItems = t("about.funStack.items", { returnObjects: true });
+
   return (
     <div className="flex relative justify-center ">
       <div className="max-w-[1094px] px-[96px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] ">
@@ -38,10 +45,7 @@ const About = () => {
             first-letter:float-left first-letter:rounded-md first-letter:bg-[#232323] 
             first-letter:py-2 first-letter:px-2.5 first-letter:text-2xl first-letter:font-bold first-letter:text-[#ebecf3]"
                 >
-                  Hey! I'm Abay, if you haven't already gathered that by now.
-                  I'm a software engineer from Astana, Kazakhstan. I specialize
-                  in the frontend, primarily React, but love exploring new tools
-                  and technologies right for the job.
+                  {descriptionParagraphs[0]}
                 </p>
               </SlideReveal>
 
@@ -50,29 +54,21 @@ const About = () => {
                 childrenWidth="fit-content"
                 childrenOverflow="hidden"
               >
-                Currently, I am working for myself honing my skills building
-                websites for customers directly. I also take online courses for
-                React, while studying at my university,👨🏻‍🎓 going deeper into best
-                practices and familiarizing myself with new programming
-                languages).
+                {descriptionParagraphs[1]}
               </SlideReveal>
               <br />
               <SlideReveal
                 childrenWidth="fit-content"
                 childrenOverflow="hidden"
               >
-                Outside of work, I play tennis with my friends and family, read
-                some books📗 both code related and not, and watch TV shows to
-                advance my English proficiency.
+                {descriptionParagraphs[2]}
               </SlideReveal>
               <br />
               <SlideReveal
                 childrenWidth="fit-content"
                 childrenOverflow="hidden"
               >
-                I'm actively looking for new positions where I can prove my
-                passion for code. If you think you've got an opening that I can
-                fill, let's connect 🔗
+                {descriptionParagraphs[3]}
               </SlideReveal>
             </div>
             <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
@@ -108,34 +104,18 @@ const About = () => {
                 <div className="flex gap-2 items-center ">
                   <FaCode className="text-neon text-2xl" />
                   <h1 className="text-slight-gray text-2xl font-bold ">
-                    Use at work
+                    {t("about.workStack.title")}
                   </h1>
                 </div>
                 <div className="flex flex-wrap mt-6 gap-3">
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#d6d7db] font-medium text-lg ">
-                    Javascript
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    React
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    CSS
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    HTML
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    TailwindCSS
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    Redux
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    GitHub
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    Git
-                  </div>
+                  {workStackItems.map((item, index) => (
+                    <div
+                      key={index}
+                      className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#d6d7db] font-medium text-lg "
+                    >
+                      {item}
+                    </div>
+                  ))}
                 </div>
               </div>
             </SlideReveal>
@@ -144,31 +124,18 @@ const About = () => {
                 <div className="flex gap-2 items-center ">
                   <FaSmile className="text-neon text-2xl" />
                   <h1 className="text-slight-gray text-2xl font-bold ">
-                    Use for fun
+                    {t("about.funStack.title")}
                   </h1>
                 </div>
                 <div className="flex flex-wrap mt-6 gap-3">
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#d6d7db] font-medium text-lg ">
-                    Next
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    Vue
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    SCSS
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    Firebase
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    SanityCMS
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    SQL
-                  </div>
-                  <div className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#c0c1c7] font-medium text-lg ">
-                    PHP
-                  </div>
+                  {funStackItems.map((item, index) => (
+                    <div
+                      key={index}
+                      className="bg-[#232323] leading-none  rounded-xl pt-1.5 pb-2.5 px-2 text-[#d6d7db] font-medium text-lg "
+                    >
+                      {item}
+                    </div>
+                  ))}
                 </div>
               </div>
             </SlideReveal>

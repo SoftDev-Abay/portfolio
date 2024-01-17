@@ -1,8 +1,11 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import resumePDF from "../assets/resume.pdf";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
+  const { t } = useTranslation("global");
+
   return (
     <nav
       className="z-[210] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky
@@ -38,7 +41,7 @@ const Navbar = () => {
       "
       >
         <a href={resumePDF} target="_blank" className="relative z-10">
-          My resume
+          {t("navbar.button")}
         </a>
       </button>
     </nav>

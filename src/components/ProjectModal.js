@@ -3,7 +3,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaExternalLinkAlt, FaCross } from "react-icons/fa";
 
 const ProjectModal = ({ isOpen, modalHandlier }) => {
-  console.log(isOpen);
   return (
     <>
       {isOpen && (

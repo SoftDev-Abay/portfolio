@@ -2,8 +2,15 @@ import React from "react";
 import { FaEnvelope } from "react-icons/fa";
 import SlideReveal from "../Framer/SlideReveal";
 import Reveal from "../Framer/Reveal";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t, i18n, ready } = useTranslation("global");
+
+  if (!ready) return "loading translations...";
+
+  const descriptionParts = t("contact.description", { returnObjects: true });
+
   return (
     <div className="flex relative justify-center items-center h-[500px] mb-[200px]">
       <div className="max-w-[1094px] px-[96px] max-md:px-[26px] md:px-[46px] lg:px-[96px] ">
@@ -15,7 +22,7 @@ const Contact = () => {
           </Reveal>
           <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
             <p className="text-center text-[#c0c1c7] text-xl ">
-              Shoot me an email if you want to connect! You can also find me on
+              {descriptionParts[0]}{" "}
               <a
                 href="https://www.linkedin.com/in/abay-aliyev-238805259"
                 target="_blank"
@@ -24,7 +31,7 @@ const Contact = () => {
                 {" "}
                 Linkedin
               </a>{" "}
-              or{" "}
+              {descriptionParts[1]}{" "}
               <a
                 href="https://www.instagram.com/longlive_abay/"
                 target="_blank"
@@ -32,7 +39,7 @@ const Contact = () => {
               >
                 Instagram
               </a>{" "}
-              if that's more your speed.
+              {descriptionParts[2]}
             </p>
           </SlideReveal>
           <p className="flex justify-center text-center mt-5 font-bold text-[#dadbe0] text-2xl">

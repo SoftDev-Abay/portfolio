@@ -12,6 +12,7 @@ const Project = ({
   imgUrl,
   name,
   modalHandlier,
+  openSpan,
 }) => {
   return (
     <div className="flex flex-col ">
@@ -73,7 +74,10 @@ const Project = ({
               });
             }}
             className="text-neon cursor-pointer"
-          >{` Learn more >`}</a>
+          >
+            {" "}
+            {openSpan} {" >"}
+          </a>
         </p>
       </SlideReveal>
     </div>
