@@ -39,10 +39,10 @@ export const projects = [
   {
     name: "Projects.app",
     imgUrl: projectsappURL,
-    tech: "React - Node - Socket.IO - SCSS",
+    tech: "React - Node - Socket.IO - MongoDB",
     smallText:
       "Project Management and Collaboration Platform with Real-Time Messaging",
-    bigText: `Built with React, Node.js, Socket.IO, and SCSS, Projects.app is a project management solution demonstrating my skills in full-stack web development. It empowers teams to organize tasks efficiently and communicate seamlessly through real-time messaging.
+    bigText: `Built with React, Node.js, Socket.IO, and MongoDB, Projects.app is a project management solution demonstrating my skills in full-stack web development. It empowers teams to organize tasks efficiently and communicate seamlessly through real-time messaging.
   
     Features:
     - Intuitive task management
@@ -51,9 +51,8 @@ export const projects = [
     - Dynamic drag-and-drop functionality
   
     This project showcases my ability to deliver practical solutions with a modern tech stack, creating a user-friendly platform for effective project collaboration.`,
-    github:
-      "https://github.com/SoftDev-Abay/projects-front",
-    live: "https://projects-front-two.vercel.app/login",
+    github: "https://github.com/SoftDev-Abay/projects-front",
+    live: "https://projects-front-two.vercel.app",
   },
   {
     name: "Courses.app",
