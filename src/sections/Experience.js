@@ -1,5 +1,4 @@
 import React from "react";
-import { experience } from "../constants";
 import Job from "../components/Job";
 import Reveal from "../Framer/Reveal";
 import { useTranslation } from "react-i18next";

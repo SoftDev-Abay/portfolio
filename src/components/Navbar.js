@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import resumePDF from "../assets/resume.pdf";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
@@ -40,7 +39,11 @@ const Navbar = () => {
       hover:before:rounded-md hover:before:w-full hover:before:h-full
       "
       >
-        <a href={resumePDF} target="_blank" className="relative z-10">
+        <a
+          href={`/assets/${t("navbar.resumeName")}`}
+          target="_blank"
+          className="relative z-10"
+        >
           {t("navbar.button")}
         </a>
       </button>
