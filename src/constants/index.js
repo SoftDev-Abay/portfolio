@@ -52,8 +52,8 @@ export const projects = [
   
     This project showcases my ability to deliver practical solutions with a modern tech stack, creating a user-friendly platform for effective project collaboration.`,
     github:
-      "https://github.com/SoftDev-Abay/projects_web/commit/fe0f9c1efefd15ccbc383a2042d1f514a29e8f57",
-    live: "https://projects-webapp.vercel.app/login",
+      "https://github.com/SoftDev-Abay/projects-front",
+    live: "https://projects-front-two.vercel.app/login",
   },
   {
     name: "Courses.app",
