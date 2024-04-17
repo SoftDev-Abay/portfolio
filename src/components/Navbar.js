@@ -5,6 +5,10 @@ import { useTranslation } from "react-i18next";
 const Navbar = () => {
   const { t } = useTranslation("global");
 
+  const resumeURL =
+    t("navbar.resumeName") === "resume_eng"
+      ? "https://drive.google.com/file/d/1GMPTIUJ75WPJ4sBjVdQFJr7nnAelpC2H/view?usp=sharing"
+      : "https://drive.google.com/file/d/18JaVcDErTJvwUdP_ZQUmldFvpxWRsjXu/view?usp=sharing";
   return (
     <nav
       className="z-[210] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky
@@ -40,7 +44,8 @@ const Navbar = () => {
       "
       >
         <a
-          href={`/assets/${t("navbar.resumeName")}`}
+          // href={`/assets/${t("navbar.resumeName")}`}
+          href={resumeURL}
           target="_blank"
           className="relative z-10"
         >
