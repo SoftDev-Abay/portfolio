@@ -29,7 +29,7 @@ const Experience = () => {
           {experienceItems.map((job, index) => (
             <Job
               key={index + "job"}
-              compamyName={job.compamyName}
+              companyName={job.companyName}
               position={job.position}
               location={job.location}
               date={job.date}

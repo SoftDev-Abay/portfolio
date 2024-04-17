@@ -16,14 +16,14 @@
     "title": "About",
     "description": [
       "Hey! I'm Abay, if you haven't already gathered that by now. I'm a software engineer from Astana, Kazakhstan. I specialize in the frontend, primarily React, but love exploring new tools and technologies right for the job.",
-      "Currently, I am working for myself honing my skills building websites for customers directly. I also take online courses for React, while studying at my university,👨🏻‍🎓 going deeper into best practices and familiarizing myself with new programming languages).",
+      "Currently, I am working in the company taking projects to build mobile and web applications, honing my skills building various commercial products. I also take different online courses always eager to learn, while also studying at my university,👨🏻‍🎓 going deeper into best practices and familiarizing myself with new programming languages).",
       "Outside of work, I play tennis with my friends and family, read some books📗 both code related and not, and watch TV shows to advance my English proficiency.",
       "I'm actively looking for new positions where I can prove my passion for code. If you think you've got an opening that I can fill, let's connect 🔗"
     ],
     "workStack": {
       "title": "Use at work",
       "items": [
-        "Javascript",
+        "Typescript",
         "React",
         "CSS",
         "HTML",
@@ -109,31 +109,30 @@
     "title": "Experience",
     "items": [
       {
-        "compamyName": "Frelance",
-        "position": "Web Developer",
-        "location": "Online",
-        "date": "2021 - Present",
-        "text": "As a freelance web developer, I delivered various projects, from dynamic landing pages to e-commerce sites, with responsive design and engaging animations.",
+        "companyName": "Pro Skill",
+        "position": "Frontend Developer",
+        "location": "Astana, Kazakhstan",
+        "date": "12/2023 - 03/2024",
+        "text": "I worked as a front-end developer intern at Pro Skill, where learned Typescritp, while at the same time honed my skills in React, SCSS, and Tailwind CSS, creating visually appealing and user-friendly interfaces.",
+        "tech": ["Typescript", "React", "TailwindCSS", "Rest API"]
+      },
+      {
+        "companyName": "Mobile Market",
+        "position": "Full stack developer ",
+        "location": "Astana, Kazakhstan",
+        "date": "03/2024 - Present",
+        "text": "In my current working position I am working on projects coming from Kazakhstan and USA, taking various projects on both web and mobile platforms, working on real projects, writing clean and maintainable code.",
         "tech": [
-          "Next",
           "React",
-          "TailwindCSS",
-          "HTML",
-          "Javascript",
-          "Firebase",
-          "GitHub"
+          "React Native",
+          "Typescript",
+          "Node.js",
+          "CSS",
+          "Firebase"
         ]
       },
       {
-        "compamyName": "Pro Skill",
-        "position": "Frontend Developer Intern",
-        "location": "Astana, Kazakhstan",
-        "date": "12/2023 - Present",
-        "text": "I worked as a front-end developer intern at Pro Skill, where learned Typescritp, while at the same time honed my skills in React, SCSS, and Tailwind CSS, creating visually appealing and user-friendly interfaces.",
-        "tech": ["Typescript", "React", "TailwindCSS", "Django"]
-      },
-      {
-        "compamyName": "Your company",
+        "companyName": "Your company",
         "position": "Full Stack Developer",
         "location": "Anywhere",
         "date": "Anytime",

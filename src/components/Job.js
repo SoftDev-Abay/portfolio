@@ -1,13 +1,13 @@
 import React from "react";
 import SlideReveal from "../Framer/SlideReveal";
 
-const Job = ({ compamyName, position, location, date, text, tech }) => {
+const Job = ({ companyName, position, location, date, text, tech }) => {
   return (
     <div className="mt-7 flex flex-col border-b border-[#2e2e2e] pb-5 px-3">
       <div className="flex justify-between">
         <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
           <span className="text-[#ebecf3] text-2xl font-extrabold ">
-            {compamyName}
+            {companyName}
           </span>
         </SlideReveal>
         <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
