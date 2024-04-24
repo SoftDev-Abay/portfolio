@@ -7,8 +7,8 @@ const Navbar = () => {
 
   const resumeURL =
     t("navbar.resumeName") === "resume_eng"
-      ? "https://drive.google.com/file/d/1GMPTIUJ75WPJ4sBjVdQFJr7nnAelpC2H/view?usp=sharing"
-      : "https://drive.google.com/file/d/18JaVcDErTJvwUdP_ZQUmldFvpxWRsjXu/view?usp=sharing";
+      ? "https://drive.google.com/file/d/1rWW6Q8FvZ3qAVnAIbB55CuNMzT7miYBT/view?usp=sharing"
+      : "https://drive.google.com/file/d/1kZCBvpcH4xggm4jwhQB7q3KtVTLXfT9G/view?usp=sharing";
   return (
     <nav
       className="z-[210] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky
