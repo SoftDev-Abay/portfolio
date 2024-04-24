@@ -109,14 +109,6 @@
     "title": "Experience",
     "items": [
       {
-        "companyName": "Pro Skill",
-        "position": "Frontend Developer",
-        "location": "Astana, Kazakhstan",
-        "date": "12/2023 - 03/2024",
-        "text": "I worked as a front-end developer intern at Pro Skill, where learned Typescritp, while at the same time honed my skills in React, SCSS, and Tailwind CSS, creating visually appealing and user-friendly interfaces.",
-        "tech": ["Typescript", "React", "TailwindCSS", "Rest API"]
-      },
-      {
         "companyName": "Mobile Market",
         "position": "Full stack developer ",
         "location": "Astana, Kazakhstan",
@@ -132,20 +124,26 @@
         ]
       },
       {
-        "companyName": "Your company",
-        "position": "Full Stack Developer",
-        "location": "Anywhere",
-        "date": "Anytime",
-        "text": "I will bring my expertise in front-end development to your company, where I'll work diligently to create visually appealing and user-friendly interfaces.",
+        "companyName": "Pro Skill",
+        "position": "Frontend Developer",
+        "location": "Astana, Kazakhstan",
+        "date": "12/2023 - 03/2024",
+        "text": "I worked as a front-end developer intern at Pro Skill, where learned Typescritp, while at the same time honed my skills in React, SCSS, and Tailwind CSS, creating visually appealing and user-friendly interfaces.",
+        "tech": ["Typescript", "React", "TailwindCSS", "Rest API"]
+      },
+      {
+        "compamyName": "Frelance",
+        "position": "Web Developer",
+        "location": "Online",
+        "date": "06/2023 - 12/2023",
+        "text": "As a freelance web developer, I delivered various projects, from dynamic landing pages to e-commerce sites, with responsive design and engaging animations.",
         "tech": [
-          "Javascript",
-          "Next",
           "React",
-          "SCSS",
+          "TailwindCSS",
           "HTML",
-          "I",
-          "CAN",
-          "LEARN"
+          "Javascript",
+          "Firebase",
+          "GitHub"
         ]
       }
     ]
