@@ -25,17 +25,16 @@
       "items": [
         "Typescript",
         "React",
-        "CSS",
-        "HTML",
-        "TailwindCSS",
         "Redux",
-        "GitHub",
+        "TailwindCSS",
+        "SCSS",
+        "HTML",
         "Git"
       ]
     },
     "funStack": {
-      "title": "Use for fun",
-      "items": ["Next", "Vue", "SCSS", "Firebase", "SanityCMS", "SQL", "PHP"]
+      "title": "Familiar with",
+      "items": ["Next", "Vue", "MySQL", "MongoDB", "PHP"]
     },
     "linksTitle": "My links"
   },

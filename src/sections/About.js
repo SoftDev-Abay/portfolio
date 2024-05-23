@@ -4,9 +4,11 @@ import {
   FaGithub,
   FaInstagram,
   FaArrowRight,
-  FaSmile,
   FaCode,
 } from "react-icons/fa";
+
+import { FaBookOpen } from "react-icons/fa6";
+
 import SlideReveal from "../Framer/SlideReveal";
 import Reveal from "../Framer/Reveal";
 import { useTranslation } from "react-i18next";
@@ -122,7 +124,7 @@ const About = () => {
             <SlideReveal>
               <div className="mt-10">
                 <div className="flex gap-2 items-center ">
-                  <FaSmile className="text-neon text-2xl" />
+                  <FaBookOpen className="text-neon text-2xl" />
                   <h1 className="text-slight-gray text-2xl font-bold ">
                     {t("about.funStack.title")}
                   </h1>
