@@ -24,6 +24,7 @@
       "title": "Use at work",
       "items": [
         "Typescript",
+        "Next",
         "React",
         "Redux",
         "TailwindCSS",
@@ -34,7 +35,7 @@
     },
     "funStack": {
       "title": "Familiar with",
-      "items": ["Next", "Vue", "MySQL", "MongoDB", "PHP"]
+      "items": ["Vue", "MySQL", "MongoDB", "PHP"]
     },
     "linksTitle": "My links"
   },
@@ -289,11 +290,36 @@
     "title": "Experience",
     "items": [
       {
-        "companyName": "Mobile Market",
-        "position": "Full stack developer ",
+        "companyName": "Crocos",
+        "position": "Frontend Developer",
         "location": "Astana, Kazakhstan",
-        "date": "03/2024 - Present",
-        "text": "In my current working position I am working on projects coming from Kazakhstan and USA, taking various projects on both web and mobile platforms, working on real projects, writing clean and maintainable code.",
+        "date": "06/2024 - Present",
+        "text": "At Crocos, I worked as a Frontend Developer, where I developed two key projects: Eurasia and Qazeli. These projects involved creating multilingual web pages and admin panels with advanced features such as complex form validation, state management, and dynamic content retrieval. I utilized technologies like Next.js, React, TypeScript, Zustand, and SCSS to deliver high-quality, responsive, and user-friendly interfaces.",
+        "tech": ["Next", "React", "Typescript", "Zoostand", "SCSS"],
+        "link": "https://crocos.kz/"
+      },
+      {
+        "companyName": "AVR Group",
+        "position": "Full stack developer",
+        "location": "Astana, Kazakhstan",
+        "date": "05/2024 - 06/2024",
+        "text": "At AVR Group, I was responsible for developing an admin panel for cashiers. The project involved creating a webpage where authorized cashiers could process payments and issue QR codes as tickets for a VR tour product. I utilized technologies such as React, TypeScript, Redux, Node.js, Express, and MongoDB to build a secure and efficient system for managing transactions and ticketing.",
+        "tech": [
+          "React",
+          "Typescript",
+          "Redux",
+          "Node.js",
+          "Express",
+          "MongoDB"
+        ],
+        "link": "https://www.avr-group.net/"
+      },
+      {
+        "companyName": "Mobile Market",
+        "position": "Full stack developer",
+        "location": "Astana, Kazakhstan",
+        "date": "03/2024 - 05/2024",
+        "text": "During my stay at this company I was working on projects coming from Kazakhstan and USA, taking various projects on both web and mobile platforms, working on commercial projects, writing clean and maintainable code.",
         "tech": [
           "React",
           "React Native",

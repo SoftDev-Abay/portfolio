@@ -1,14 +1,24 @@
 import React from "react";
 import SlideReveal from "../Framer/SlideReveal";
 
-const Job = ({ companyName, position, location, date, text, tech }) => {
+const Job = ({ companyName, position, location, date, text, tech, link }) => {
   return (
     <div className="mt-7 flex flex-col border-b border-[#2e2e2e] pb-5 px-3">
       <div className="flex justify-between">
         <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
-          <span className="text-[#ebecf3] text-2xl font-extrabold ">
-            {companyName}
-          </span>
+          {link ? (
+            <a
+              href={link}
+              className="cursor-pointer text-[#ebecf3] text-2xl font-extrabold "
+              target="_blank"
+            >
+              {companyName}
+            </a>
+          ) : (
+            <span className="text-[#ebecf3] text-2xl font-extrabold ">
+              {companyName}
+            </span>
+          )}
         </SlideReveal>
         <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
           <span className="text-[#d6d7db] font-medium text-lg">{date}</span>

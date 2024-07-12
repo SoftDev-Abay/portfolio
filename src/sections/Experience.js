@@ -10,6 +10,8 @@ const Experience = () => {
 
   const experienceItems = t("experince.items", { returnObjects: true });
 
+  console.log(experienceItems);
+
   return (
     <div className="flex relative justify-center ">
       <div className="max-w-[1094px] px-[96px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] ">
@@ -35,6 +37,7 @@ const Experience = () => {
               date={job.date}
               text={job.text}
               tech={job.tech}
+              link={job?.link}
             />
           ))}
           <hr className="border-t-0 border-b w-full border-b-[#302f2f]" />
