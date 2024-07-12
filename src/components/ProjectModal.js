@@ -8,8 +8,6 @@ const ProjectModal = ({ isOpen, modalHandlier }) => {
       {isOpen && (
         <>
           <div className="fixed w-full h-full left-0 top-0 z-[1000] bg-black  overflow-auto bg-transparent backdrop-blur-md">
-            {/* sand box */}
-            <div className="fixed w-full h-full left-0 top-0 flex justify-center items-center "></div>
             {/* modal box */}
             <div className="z-[100] relative w-[80%] max-w-[850px]  my-[100px] mx-auto bg-transparent">
               <div className="flex flex-col bg-[#232323] rounded-xl">
