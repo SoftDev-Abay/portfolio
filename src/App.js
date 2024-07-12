@@ -47,11 +47,11 @@ function App() {
   return (
     <div className={`p-0 m-0 bg-gray-300 grid grid-cols-main-grid-structure`}>
       <SideNav activeSection={activeSection} />
+      <ProjectModal
+        isOpen={isOpenProjectModal}
+        modalHandlier={ProjectModalHandlier}
+      />
       <main id="top" className="relative bg-[#111111] ">
-        <ProjectModal
-          isOpen={isOpenProjectModal}
-          modalHandlier={ProjectModalHandlier}
-        />
         <LanguageToggle />
         <Navbar />
         <section className="" id="hero" data-section>

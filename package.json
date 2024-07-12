@@ -13,7 +13,9 @@
     "react-i18next": "^14.0.0",
     "react-icons": "^4.11.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "swiper": "^11.1.4",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.21.1"
   },
   "scripts": {
     "start": "react-scripts start",

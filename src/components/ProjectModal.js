@@ -1,28 +1,20 @@
 import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaExternalLinkAlt, FaCross } from "react-icons/fa";
-
+import SwiperGallery from "./SwiperGallery/SwiperGallery";
 const ProjectModal = ({ isOpen, modalHandlier }) => {
   return (
     <>
       {isOpen && (
         <>
-          <div className="fixed w-full h-full left-0 top-0 z-[10000] bg-black  overflow-auto bg-transparent backdrop-blur-md">
+          <div className="fixed w-full h-full left-0 top-0 z-[1000] bg-black  overflow-auto bg-transparent backdrop-blur-md">
             {/* sand box */}
             <div className="fixed w-full h-full left-0 top-0 flex justify-center items-center "></div>
             {/* modal box */}
-            <div
-              className="z-[10000] relative w-[80%] max-w-[850px]  my-[100px] mx-auto bg-transparent
-            
-            "
-            >
+            <div className="z-[100] relative w-[80%] max-w-[850px]  my-[100px] mx-auto bg-transparent">
               <div className="flex flex-col bg-[#232323] rounded-xl">
                 <div className="relative overflow-hidden rounded-t-xl bg-[#232323] ">
-                  <img
-                    className=" rounded-t-lg relative object-fill sm:min-h-[350px] max-[400px]:object-contain  "
-                    src={isOpen.imgUrl}
-                    alt=""
-                  />
+                  <SwiperGallery images={isOpen.imgs} />
                 </div>
                 <div className="p-5">
                   <div className="flex justify-between items-center gap-3 mt-5">
@@ -71,13 +63,15 @@ const ProjectModal = ({ isOpen, modalHandlier }) => {
                     </div>
                   </div>
 
-                  <div
-                    className="absolute top-3 right-3 cursor-pointer z-[301] flex justify-end w-full"
-                    onClick={() => {
-                      modalHandlier(false);
-                    }}
-                  >
-                    <AiOutlineClose className="text-slate-gray text-xl font-extrabold mr-4 max-[440px]:mr-[10%] max-[402px]:mr-[30%]" />
+                  <div className="absolute top-3 right-3 cursor-pointer z-[301] flex justify-end w-full ">
+                    <AiOutlineClose
+                      onClick={() => {
+                        modalHandlier(false);
+                      }}
+                      className="text-slate-gray text-xl font-extrabold mr-4 
+                         transition-all duration-200 ease-in-out hover:scale-[1.6]
+                      "
+                    />
                   </div>
                 </div>
               </div>

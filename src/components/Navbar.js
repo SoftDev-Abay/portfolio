@@ -11,7 +11,7 @@ const Navbar = () => {
       : "https://drive.google.com/file/d/1kZCBvpcH4xggm4jwhQB7q3KtVTLXfT9G/view?usp=sharing";
   return (
     <nav
-      className="z-[210] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky
+      className="z-[10] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky
     "
     >
       <div className="flex justify-between gap-4 ">

@@ -30,10 +30,11 @@ const Projects = (props) => {
               bigText={project.bigText}
               smallText={project.smallText}
               tech={project.tech}
-              imgUrl={project.imgUrl}
+              imgs={project.imgs}
               name={project.name}
               modalHandlier={props.modalHandlier}
               openSpan={project.openSpan}
+              heroImg={project.heroImg}
             />
           ))}
         </div>

@@ -9,10 +9,11 @@ const Project = ({
   bigText,
   smallText,
   tech,
-  imgUrl,
+  imgs,
   name,
   modalHandlier,
   openSpan,
+  heroImg,
 }) => {
   return (
     <div className="flex flex-col ">
@@ -23,15 +24,15 @@ const Project = ({
             github,
             bigText,
             tech,
-            imgUrl,
+            imgs,
             name,
           });
         }}
         className=" cursor-pointer relative overflow-hidden rounded-xl bg-[#232323]  group"
       >
         <img
-          className=" h-[232px] rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
-          src={imgUrl}
+          className=" h-[232px] w-full  rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
+          src={heroImg}
           alt=""
         />
       </div>
@@ -69,7 +70,7 @@ const Project = ({
                 github,
                 bigText,
                 tech,
-                imgUrl,
+                imgs,
                 name,
               });
             }}
