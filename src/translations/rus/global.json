@@ -43,6 +43,61 @@
     "title": "Проекты",
     "items": [
       {
+        "name": "Ronin",
+        "imgs": [
+          {
+            "src": "/img/projects/ronin/ronin-hero.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-services.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-faq.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-about.png"
+          }
+        ],
+        "heroImg": "/img/projects/ronin/ronin-hero.png",
+        "tech": "REACT - NEXT - SCSS",
+        "smallText": "Современная посадочная страница для дизайн-агентства с элегантным дизайном и плавными анимациями.",
+        "bigText": "Ronin - это современная посадочная страница для дизайн-агентства, созданная с использованием React, Next.js и SCSS. Проект демонстрирует мою способность создавать визуально привлекательные и удобные для пользователя интерфейсы, улучшая пользовательский опыт.\n\nСайт включает динамичный раздел героя, раздел услуг, раздел FAQ и раздел о нас, все тщательно разработанные для бесшовного взаимодействия с пользователем. Использование SCSS обеспечивает последовательный и визуально привлекательный дизайн, а интеграция Framer Motion добавляет тонкие, но увлекательные анимации.\n\nЭтот проект свидетельствует о моих навыках веб-разработки и страсти к созданию привлекательных веб-опытов.",
+        "github": "https://github.com/SoftDev-Abay/ronin-ui",
+        "live": "https://ronindsgn.com/",
+        "openSpan": "Узнать больше"
+      },
+      {
+        "name": "Hash-Cats",
+        "imgs": [
+          {
+            "src": "/img/projects/hash-cats/hash-cats-hero.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-story.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-grid.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-tips.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-roadmap.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-footer.png"
+          }
+        ],
+        "heroImg": "/img/projects/hash-cats/hash-cats-hero.png",
+        "tech": "REACT - NEXT - SCSS",
+        "smallText": "Посадочная страница для криптовалютной компании с элегантным дизайном и плавными анимациями.",
+        "bigText": "Hash-Cats - это посадочная страница для криптовалютной компании, созданная с использованием React, Next.js и SCSS. Проект демонстрирует мою способность создавать визуально привлекательные и удобные для пользователя интерфейсы, улучшая пользовательский опыт.\n\nСайт включает динамичный раздел героя, раздел услуг, раздел FAQ и раздел о нас, все тщательно разработанные для бесшовного взаимодействия с пользователем. Использование SCSS обеспечивает последовательный и визуально привлекательный дизайн, а интеграция Framer Motion добавляет тонкие, но увлекательные анимации.\n\nЭтот проект свидетельствует о моих навыках веб-разработки и страсти к созданию привлекательных веб-опытов.",
+        "github": "https://github.com/SoftDev-Abay/tera-hash",
+        "live": "https://tera-hash.vercel.app",
+        "openSpan": "Узнать больше"
+      },
+
+      {
         "name": "Qazeli",
         "imgs": [
           {
@@ -290,10 +345,20 @@
     "title": "Опыт работы",
     "items": [
       {
+        "companyName": "Ronin Design Agency",
+        "position": "Frontend Developer",
+        "location": "Astana, Kazakhstan",
+        "date": "07/2024 - Настоящее время",
+        "text": "В Ronin Design Agency я работаю в качестве Frontend-разработчика, где разрабатываю веб-сайты и веб-приложения для клиентов в различных отраслях. Я специализируюсь на создании отзывчивых и удобных для пользователя интерфейсов.",
+        "tech": ["Next", "React", "Typescript", "SCSS"],
+        "link": "https://ronindsgn.com"
+      },
+
+      {
         "companyName": "Crocos",
         "position": "Frontend Developer",
         "location": "Astana, Kazakhstan",
-        "date": "06/2024 - Настоящее время",
+        "date": "06/2024 - 07/2024",
         "text": "В компании Crocos я работал в качестве Frontend-разработчика, где разработал два ключевых проекта: Eurasia и Qazeli. Эти проекты включали создание многоязычных веб-страниц и панелей администратора с расширенными функциями, такими как сложная валидация форм, управление состоянием и динамическое получение контента. Я использовал технологии, такие как Next.js, React, TypeScript, Zustand и SCSS, чтобы предоставить высококачественные, адаптивные и удобные интерфейсы.",
         "tech": ["Next", "React", "Typescript", "Zoostand", "SCSS"],
         "link": "https://crocos.kz/"

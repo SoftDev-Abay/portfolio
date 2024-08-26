@@ -43,6 +43,60 @@
     "title": "Projects",
     "items": [
       {
+        "name": "Ronin",
+        "imgs": [
+          {
+            "src": "/img/projects/ronin/ronin-hero.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-services.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-faq.png"
+          },
+          {
+            "src": "/img/projects/ronin/ronin-about.png"
+          }
+        ],
+        "heroImg": "/img/projects/ronin/ronin-hero.png",
+        "tech": "REACT - NEXT - SCSS",
+        "smallText": "A modern landing page for a design agency, featuring a sleek design and smooth animations.",
+        "bigText": "Ronin is a modern landing page for a design agency, built with React, Next.js, and SCSS. The project showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe site features a dynamic hero section, services section, FAQ section, and an about section, all meticulously designed for seamless user engagement. The use of SCSS ensures a consistent and visually appealing design, while the integration of Framer Motion adds subtle yet engaging animations.\n\nThis project is a testament to my web development skills and passion for creating appealing web experiences.",
+        "github": "https://github.com/SoftDev-Abay/ronin-ui",
+        "live": "https://ronindsgn.com/",
+        "openSpan": "Learn more"
+      },
+      {
+        "name": "Hash-Cats",
+        "imgs": [
+          {
+            "src": "/img/projects/hash-cats/hash-cats-hero.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-story.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-grid.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-tips.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-roadmap.png"
+          },
+          {
+            "src": "/img/projects/hash-cats/hash-cats-footer.png"
+          }
+        ],
+        "heroImg": "/img/projects/hash-cats/hash-cats-hero.png",
+        "tech": "REACT - NEXT - SCSS",
+        "smallText": "A landing page for a cryptocurrency company, featuring a sleek design and smooth animations.",
+        "bigText": "Hash-Cats is a landing page for a cryptocurrency company, built with React, Next.js, and SCSS. The project showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe site features a dynamic hero section, services section, FAQ section, and an about section, all meticulously designed for seamless user engagement. The use of SCSS ensures a consistent and visually appealing design, while the integration of Framer Motion adds subtle yet engaging animations.\n\nThis project is a testament to my web development skills and passion for creating appealing web experiences.",
+        "github": "https://github.com/SoftDev-Abay/tera-hash",
+        "live": "https://tera-hash.vercel.app",
+        "openSpan": "Learn more"
+      },
+      {
         "name": "Qazeli",
         "imgs": [
           {
@@ -290,10 +344,19 @@
     "title": "Experience",
     "items": [
       {
+        "companyName": "Ronin Design Agency",
+        "position": "Frontend Developer",
+        "location": "Astana, Kazakhstan",
+        "date": "07/2024 - Present",
+        "text": "At Ronin Design Agency, I work as a Frontend Developer, where I develop websites and web applications for clients in various industries. I specialize in creating responsive and user-friendly interfaces.",
+        "tech": ["Next", "React", "Typescript", "SCSS"],
+        "link": "https://ronindsgn.com"
+      },
+      {
         "companyName": "Crocos",
         "position": "Frontend Developer",
         "location": "Astana, Kazakhstan",
-        "date": "06/2024 - Present",
+        "date": "06/2024 - 07/2024",
         "text": "At Crocos, I worked as a Frontend Developer, where I developed two key projects: Eurasia and Qazeli. These projects involved creating multilingual web pages and admin panels with advanced features such as complex form validation, state management, and dynamic content retrieval. I utilized technologies like Next.js, React, TypeScript, Zustand, and SCSS to deliver high-quality, responsive, and user-friendly interfaces.",
         "tech": ["Next", "React", "Typescript", "Zoostand", "SCSS"],
         "link": "https://crocos.kz/"
