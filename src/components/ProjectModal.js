@@ -38,16 +38,16 @@ const ProjectModal = ({ isOpen, modalHandlier }) => {
                     </h1>
 
                     <div className="flex gap-2 mt-2">
-                      <a
-                        href=""
-                        className="gap-2 flex text-neon font-medium text-base items-center"
-                      >
-                        <FaGithub
+                      {isOpen.github && (
+                        <a
                           href={isOpen.github}
-                          className="text-base text-neon"
-                        />{" "}
-                        source code
-                      </a>
+                          target="_blank"
+                          className="gap-2 flex text-neon font-medium text-base items-center"
+                        >
+                          <FaGithub className="text-base text-neon" /> source
+                          code
+                        </a>
+                      )}
                       <a
                         href={isOpen.live}
                         className="gap-2 flex text-neon font-medium text-base items-center"

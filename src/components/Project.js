@@ -47,10 +47,13 @@ const Project = ({
           </h1>
           <hr className="border-t-0 border-b w-4/5 border-b-[#adadad]" />
           <div className="flex justify-between gap-4 ">
-            <a href={github}>
-              <FaGithub className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer" />
-            </a>
-            <a href={live}>
+            {github && (
+              <a href={github} target="_blank">
+                <FaGithub className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer" />
+              </a>
+            )}
+
+            <a href={live} target="_blank">
               <FaExternalLinkAlt className="text-2xl text-[#7e7e82] hover:text-neon cursor-pointer" />
             </a>
           </div>

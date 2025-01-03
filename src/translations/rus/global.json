@@ -24,18 +24,19 @@
       "title": "Использую в работе",
       "items": [
         "Typescript",
-        "Next",
         "React",
+        "Next",
+        "MySQL",
         "Redux",
         "TailwindCSS",
         "SCSS",
         "HTML",
-        "Git"
+        "GitHub"
       ]
     },
     "funStack": {
       "title": "Знаком с",
-      "items": ["Vue", "MySQL", "MongoDB", "PHP"]
+      "items": ["Golang", "Vue", "PostgreSQL", "MongoDB", "Python"]
     },
     "linksTitle": "Мои ссылки"
   },
@@ -63,11 +64,11 @@
         "smallText": "Современная посадочная страница для дизайн-агентства с элегантным дизайном и плавными анимациями.",
         "bigText": "Ronin - это современная посадочная страница для дизайн-агентства, созданная с использованием React, Next.js и SCSS. Проект демонстрирует мою способность создавать визуально привлекательные и удобные для пользователя интерфейсы, улучшая пользовательский опыт.\n\nСайт включает динамичный раздел героя, раздел услуг, раздел FAQ и раздел о нас, все тщательно разработанные для бесшовного взаимодействия с пользователем. Использование SCSS обеспечивает последовательный и визуально привлекательный дизайн, а интеграция Framer Motion добавляет тонкие, но увлекательные анимации.\n\nЭтот проект свидетельствует о моих навыках веб-разработки и страсти к созданию привлекательных веб-опытов.",
         "github": "https://github.com/SoftDev-Abay/ronin-ui",
-        "live": "https://ronindsgn.com/",
+        "live": "https://ronin-ui-seven.vercel.app/",
         "openSpan": "Узнать больше"
       },
       {
-        "name": "Hash-Cats",
+        "name": "HashCats",
         "imgs": [
           {
             "src": "/img/projects/hash-cats/hash-cats-hero.png"
@@ -96,7 +97,40 @@
         "live": "https://tera-hash.vercel.app",
         "openSpan": "Узнать больше"
       },
-
+      {
+        "name": "Esep",
+        "imgs": [
+          {
+            "src": "/img/projects/esep/public_graph.png"
+          },
+          {
+            "src": "/img/projects/esep/public_statistics.png"
+          },
+          {
+            "src": "/img/projects/esep/admin_constructor.png"
+          }
+        ],
+        "heroImg": "/img/projects/esep/public_graph.png",
+        "tech": "React - Redux - Node.js - MySQL",
+        "smallText": "Государственная платформа для отслеживания и управления отчетами",
+        "bigText": "Государственная платформа компании DGSC, используемая для отслеживания и управления государственными отчетами.\n\nОтчеты структурированы в виде таблиц, есть респонденты и администраторы. Администраторы могут использовать уникально созданный конструктор отчетов и назначать отчеты определенным респондентам, которые заполняют соответствующую статистику и отправляют их. Также на платформе отчеты могут быть агрегированы, что позволяет видеть данные, например, по регионам или отраслям.\n\nПроект создан с использованием Node.js, MySQL, ClickHouse, а на фронтенде использовались Typescript, React, Redux и SCSS.",
+        "live": "https://esep.govtec.kz",
+        "openSpan": "Узнать больше"
+      },
+      {
+        "name": "Providwell",
+        "imgs": [
+          {
+            "src": "/img/projects/providwell/public_index.png"
+          }
+        ],
+        "heroImg": "/img/projects/providwell/public_index.png",
+        "tech": "TypeScript - React Native - Firebase - Node.js",
+        "smallText": "Платформа аналитики данных по ипотеке для профессионалов в сфере недвижимости.",
+        "bigText": "Providwell — специализированная платформа аналитики данных по ипотеке, предназначенная для предоставления всесторонней информации профессионалам в сфере недвижимости. Построенная с использованием React Native для кроссплатформенного опыта, она также использует Firebase для работы в реальном времени и аутентификации, Node.js и TypeScript для серверных услуг, а также Python для обработки данных.\n\nЭтот проект демонстрирует силу облачной архитектуры и важность эффективного предоставления аналитики на различных устройствах. Providwell подчеркивает как техническую масштабируемость, так и удобный дизайн, позволяя компаниям принимать решения на основе данных с легкостью.",
+        "live": "https://providwell.com/",
+        "openSpan": "Узнать больше"
+      },
       {
         "name": "Qazeli",
         "imgs": [
@@ -134,149 +168,6 @@
         "openSpan": "Узнать больше"
       },
       {
-        "name": "Eurasia",
-        "imgs": [
-          {
-            "src": "/img/projects/eurasia/eurasia_hero_en.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_goal_en.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_goal_points_en.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_hero_points_en.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_hero_solutions.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_news.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_news_view.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_modal.png"
-          },
-          {
-            "src": "/img/projects/eurasia/eurasia_contact.png"
-          }
-        ],
-        "heroImg": "/img/projects/eurasia/eurasia_hero_en.png",
-        "tech": "REACT - NEXT - SCSS - Axios",
-        "smallText": "Двуязычная веб-страница компании с надежным управлением контентом и адаптивным дизайном.",
-        "bigText": "Eurasia — это комплексная веб-страница, предоставляющая подробную информацию о компании на русском и английском языках. Этот проект демонстрирует мою способность создавать многоязычные приложения, рассчитанные на разнообразную аудиторию.\n\nСайт включает ключевую статистику компании, общую информацию и четко определенные цели, предоставляя посетителям полное понимание миссии и достижений компании. Кроме того, на нем представлены последние посты с пагинацией, что позволяет пользователям легко навигировать по обновлениям и объявлениям.\n\nОсобенностью сайта является форма 'Связаться с нами', реализованная с использованием React Form Hook и Yup для тщательной валидации. Это гарантирует, что все отправки будут точными и полными, улучшая взаимодействие и вовлеченность пользователей.\n\nПроект следует хорошо структурированному подходу, используя сервисы, утилиты и маршрутизацию страниц. Next.js используется для серверного рендеринга (SSR), обеспечивая быстрое время загрузки и улучшение SEO. Дизайн полностью адаптивен, обеспечивая бесшовный опыт на всех устройствах, от настольных компьютеров до смартфонов.\n\nДля пользовательского интерфейса используется библиотека MUI, обеспечивающая единообразные и визуально привлекательные элементы ввода. Использование Axios гарантирует эффективное получение данных с сервера, поддерживая динамичное и актуальное содержание.",
-        "github": "https://github.com/SoftDev-Abay/crocos_eurasia_group",
-        "live": "https://eurasia-group.vercel.app/",
-        "openSpan": "Узнать больше"
-      },
-
-      {
-        "name": "Nike.app",
-        "imgs": [
-          {
-            "src": "/img/projects/nike/nike_hero.png"
-          },
-          {
-            "src": "/img/projects/nike/nike_products.png"
-          },
-          {
-            "src": "/img/projects/nike/nike_customers.png"
-          },
-          {
-            "src": "/img/projects/nike/nike_super_quality.png"
-          },
-          {
-            "src": "/img/projects/nike/nike_offer.png"
-          },
-          {
-            "src": "/img/projects/nike/nike_footer.png"
-          }
-        ],
-        "heroImg": "/img/projects/nike/nike_hero.png",
-        "tech": "React - TailwindCSS - HTML - Javascript",
-        "smallText": "Лендинг для магазина обуви Nike. Отлично выглядит на всех устройствах, от маленьких до больших.",
-        "bigText": "Мой проект по созданию лендинга Nike Shoes красиво интегрирует Tailwind CSS и Vue.js, используя мощь этих технологий для создания визуально захватывающего опыта. Кроме того, я внедрил Framer Motion для тонких, но увлекательных анимаций.\n\nЭтот проект свидетельствует о моих навыках веб-разработки и страсти к созданию привлекательных веб-приложений. В нем представлены динамичный герой, реальные отзывы клиентов и эксклюзивная обувь Nike, все тщательно разработанные для бесшовного взаимодействия с пользователем.\n\nПосетители также могут воспользоваться эксклюзивным специальным предложением, улучшая свою эксплуатацию иконических продуктов Nike.",
-        "github": "https://github.com/SoftDev-Abay/nike.git",
-        "live": "https://nike-steel.vercel.app/",
-        "openSpan": "Узнать больше"
-      },
-      {
-        "name": "Shop.app",
-        "imgs": [
-          {
-            "src": "/img/projects/ecommerce/ecommerce_hero.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_categories.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_product.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_cart.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_sign_in.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_search.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_profile.png"
-          },
-          {
-            "src": "/img/projects/ecommerce/ecommerce_payment.png"
-          }
-        ],
-        "heroImg": "/img/projects/ecommerce/ecommerce_hero.png",
-        "tech": "Next.js - CSS - Firebase - SanityCMS",
-        "smallText": "Приложение электронной коммерции в реальном времени для просмотра, выбора и покупки продуктов.",
-        "bigText": "Мой последний проект - это интернет-магазин, созданный с использованием Next.js, SCSS, Firebase и Sanity CMS. Этот проект отражает мое стремление к изучению веб-разработки.\n\nПод капотом проект предлагает эффективную систему управления продуктами. Это обеспечивает беззаветные обновления, добавление новых продуктов и мгновенные корректировки деталей продукта.\n\nПозволяет клиентам легко управлять своей персональной информацией. Этот персонализированный подход повышает удобство использования.\n\nИнтегрируетбыструю систему поиска, гарантируя, что пользователи могут быстро найти нужные продукты.",
-        "github": "https://github.com/SoftDev-Abay/ri_ecommerce.git",
-        "live": "https://ri-ecommerce.vercel.app/",
-        "openSpan": "Узнать больше"
-      },
-
-      {
-        "name": "Projects.app",
-        "imgs": [
-          {
-            "src": "/img/projects/projects/projects_project_view.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_projects.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_task_add.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_tasks.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_chat.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_selectchat.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_jobs.png"
-          },
-          {
-            "src": "/img/projects/projects/projects_project_add.png"
-          }
-        ],
-        "heroImg": "/img/projects/projects/projects_project_view.png",
-        "tech": "React - Node - Socket.IO - SCSS",
-        "smallText": "Платформа управления проектами и совместной работы с мгновенной передачей сообщений",
-        "bigText": "Projects.app - это решение по управлению проектами, демонстрирующее мои навыки в полноценной веб-разработке. Он предоставляет командам возможность эффективно организовывать задачи и общаться беспрепятственно через мгновенную передачу сообщений.\n\nОсобенности:\n\n- Интуитивное управление задачами\n\n- Общение в реальном времени для совместной работы команды\n\n- Отзывчивый дизайн для оптимального пользовательского опыта\n\n- Динамичная функциональность перетаскивания\n\nЭтот проект демонстрирует мою способность предоставлять практические решения с современным стеком технологий, создавая пользовательский интерфейс для эффективного сотрудничества над проектом.",
-        "github": "https://github.com/SoftDev-Abay/projects-front",
-        "live": "https://projects-front-two.vercel.app/",
-        "openSpan": "Узнать больше"
-      },
-      {
         "name": "Jobpilot.app",
         "imgs": [
           {
@@ -308,36 +199,6 @@
         "github": "https://github.com/SoftDev-Abay/jobpilot-testtask",
         "live": "https://jobpilot-eight.vercel.app/",
         "openSpan": "Узнать больше"
-      },
-      {
-        "name": "Courses.app",
-        "imgs": [
-          {
-            "src": "/img/cources.png"
-          }
-        ],
-        "heroImg": "/img/cources.png",
-        "tech": "PHP - SQL - HTMl - MySQL",
-        "smallText": "Веб-сайт для образовательных целей, предоставляющий пространство для хранения уроков и заданий для студентов.",
-        "bigText": "Мой проект - это обширный веб-сайт курсов, созданный с использованием PHP, CSS, HTML, SQL и MySQL. Он предлагает безупречный доступ пользователей через полностью функциональную систему авторизации и регистрации, позволяя студентам легко регистрироваться, входить и получать доступ к учебным материалам.\nПреподаватели получают выгоду от эффективного управления уроками и заданиями.\n\nВажно отметить, что веб-сайт служит репозиторием для файлов уроков и заданий, улучшая опыт обучения. Благодаря его оптимизированной панели администратора администраторы могут легко добавлять, удалять и управлять уроками и заданиями, обеспечивая динамичность и актуальность платформы.\n\nЭтот проект отражает мою готовность создавать доступные, удобные и динамичные образовательные решения.",
-        "github": "https://translate.google.com/?hl=ru",
-        "live": "http://abay.infinityfreeapp.com/Educational_Portal/authorization.php",
-        "openSpan": "Узнать больше"
-      },
-      {
-        "name": "Portfolio.app",
-        "imgs": [
-          {
-            "src": "/img/portfolio.png"
-          }
-        ],
-        "heroImg": "/img/portfolio.png",
-        "tech": "React - TailwindCSS - Javascript - HTML",
-        "smallText": "Онлайн-портфолио моей карьеры веб-разработчика, демонстрирующее мои лучшие навыки и характер.",
-        "bigText": "Созданный с использованием Tailwind CSS, React и Framer Motion, этот проект служит платформой для демонстрации моего разнообразного спектра навыков, от создания отзывчивого дизайна с использованием Tailwind CSS до сложных анимаций и переходов, реализованных через Framer Motion.\n\nПользовательская навигация веб-сайта обеспечивает беззаветное исследование различных моих проектов, предоставляя представление о моей компетентности с различными технологиями и способности создавать привлекательные пользовательские интерфейсы.\n\nБудь то динамичные лендинги, интернет-магазины или платформы для онлайн-курсов, мой веб-сайт-портфолио предоставляет всесторонний обзор моих возможностей веб-разработчика.",
-        "github": "https://github.com/SoftDev-Abay/portfolio.git",
-        "live": "https://abay-portfolio.vercel.app/",
-        "openSpan": "Узнать больше"
       }
     ]
   },
@@ -345,39 +206,21 @@
     "title": "Опыт работы",
     "items": [
       {
-        "companyName": "Ronin Design Agency",
-        "position": "Frontend Developer",
-        "location": "Astana, Kazakhstan",
-        "date": "07/2024 - Настоящее время",
-        "text": "В Ronin Design Agency я работаю в качестве Frontend-разработчика, где разрабатываю веб-сайты и веб-приложения для клиентов в различных отраслях. Я специализируюсь на создании отзывчивых и удобных для пользователя интерфейсов.",
-        "tech": ["Next", "React", "Typescript", "SCSS"],
-        "link": "https://ronindsgn.com"
-      },
-
-      {
-        "companyName": "Crocos",
-        "position": "Frontend Developer",
-        "location": "Astana, Kazakhstan",
-        "date": "06/2024 - 07/2024",
-        "text": "В компании Crocos я работал в качестве Frontend-разработчика, где разработал два ключевых проекта: Eurasia и Qazeli. Эти проекты включали создание многоязычных веб-страниц и панелей администратора с расширенными функциями, такими как сложная валидация форм, управление состоянием и динамическое получение контента. Я использовал технологии, такие как Next.js, React, TypeScript, Zustand и SCSS, чтобы предоставить высококачественные, адаптивные и удобные интерфейсы.",
-        "tech": ["Next", "React", "Typescript", "Zoostand", "SCSS"],
-        "link": "https://crocos.kz/"
-      },
-      {
-        "companyName": "AVR Group",
-        "position": "Full stack developer",
-        "location": "Astana, Kazakhstan",
-        "date": "05/2024 - 06/2024",
-        "text": "В компании AVR Group я занимался разработкой панели администратора для кассиров. Проект включал создание веб-страницы, где авторизованные кассиры могли обрабатывать платежи и выдавать QR-коды в качестве билетов на VR-тур. Я использовал технологии, такие как React, TypeScript, Redux, Node.js, Express и MongoDB, чтобы создать безопасную и эффективную систему для управления транзакциями и билетами.",
+        "companyName": "DGSC",
+        "position": "Full-stack разработчик",
+        "location": "Астана, Казахстан",
+        "date": "10/2023 - Настоящее время",
+        "text": "Работая в DGSC, я внес вклад в разработку и поддержку комплексной платформы отчетности, используемой различными государственными учреждениями. Работал как на фронтенд, так и на бэкенд частях разработки.",
         "tech": [
           "React",
           "Typescript",
           "Redux",
+          "SCSS",
           "Node.js",
-          "Express",
-          "MongoDB"
+          "MySQL",
+          "ClickHouse"
         ],
-        "link": "https://www.avr-group.net/"
+        "link": "https://govtec.kz/"
       },
       {
         "companyName": "Mobile Market",
@@ -392,29 +235,6 @@
           "Node.js",
           "CSS",
           "Firebase"
-        ]
-      },
-      {
-        "companyName": "Pro Skill",
-        "position": "Frontend разработчик",
-        "location": "Астана, Казахстан",
-        "date": "12/2023 - 03/2024",
-        "text": "Я работал стажером-фронтенд разработчиком в компании Pro Skill, где я изчуал Typescript, а также оттачивал свои навыки в React, SCSS и Tailwind CSS, создавая визуально привлекательные и удобные для пользователя интерфейсы.",
-        "tech": ["Typescript", "React", "TailwindCSS", "Rest API"]
-      },
-      {
-        "companyName": "Фриланс",
-        "position": "Веб-разработчик",
-        "location": "Онлайн",
-        "date": "06/2023 - 12/2023",
-        "text": "Как фриланс-веб-разработчик, я реализовывал различные проекты, от динамичных посадочных страниц до интернет-магазинов, с отзывчивым дизайном и увлекательными анимациями.",
-        "tech": [
-          "React",
-          "TailwindCSS",
-          "HTML",
-          "Javascript",
-          "Firebase",
-          "GitHub"
         ]
       }
     ]
