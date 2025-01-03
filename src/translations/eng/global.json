@@ -94,7 +94,7 @@
         "smallText": "A landing page for a cryptocurrency company, featuring a sleek design and smooth animations.",
         "bigText": "Hash-Cats is a landing page for a cryptocurrency company, built with React, Next.js, and SCSS. The project showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe site features a dynamic hero section, services section, FAQ section, and an about section, all meticulously designed for seamless user engagement. The use of SCSS ensures a consistent and visually appealing design, while the integration of Framer Motion adds subtle yet engaging animations.\n\nThis project is a testament to my web development skills and passion for creating appealing web experiences.",
         "github": "https://github.com/SoftDev-Abay/tera-hash",
-        "live": "https://tera-hash.vercel.app",
+        "live": "https://hashcats.net",
         "openSpan": "Learn more"
       },
       {
