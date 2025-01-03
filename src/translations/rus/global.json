@@ -1,7 +1,7 @@
 {
   "navbar": {
     "button": "Моё резюме",
-    "resumeName": "resume_rus"
+    "resumeName": "resume_ru"
   },
   "sidebar": {
     "items": ["О себе", "Опыт", "Проекты", "Контакты"]

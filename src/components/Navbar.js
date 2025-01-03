@@ -6,9 +6,9 @@ const Navbar = () => {
   const { t } = useTranslation("global");
 
   const resumeURL =
-    t("navbar.resumeName") === "resume_eng"
-      ? "https://drive.google.com/file/d/1rWW6Q8FvZ3qAVnAIbB55CuNMzT7miYBT/view?usp=sharing"
-      : "https://drive.google.com/file/d/1kZCBvpcH4xggm4jwhQB7q3KtVTLXfT9G/view?usp=sharing";
+    t("navbar.resumeName") === "resume_en"
+      ? "https://drive.google.com/file/d/1hJP1LYRzSPevzDIZllY5LSQHU8a7wzKb/view?usp=sharing"
+      : "https://drive.google.com/file/d/15f_R_fM2iHvri__4cQWs94M9RTYDuWKU/view?usp=sharing";
   return (
     <nav
       className="z-[10] flex w-full backdrop-blur-md justify-between flex-row py-4 items-center px-10 top-0 bg-transparent sticky

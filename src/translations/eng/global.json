@@ -1,7 +1,7 @@
 {
   "navbar": {
     "button": "My resume",
-    "resumeName": "resume_eng"
+    "resumeName": "resume_en"
   },
   "sidebar": {
     "items": ["About", "Exp.", "Projects", "Contact"]
