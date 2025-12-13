@@ -26,7 +26,7 @@ const LanguageToggle = () => {
   }, [currentLanguageIndex]);
 
   return (
-    <div className="z-50 fixed right-7 bottom-5">
+    <div className="z-[1000] fixed right-7 bottom-5">
       <div className="relative">
         <div
           className="  bg-[#2e2e2e] text-[#0aff9dc4]  cursor-pointer  flex justify-center items-center gap-2 px-2 py-1 rounded-md"

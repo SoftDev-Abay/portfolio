@@ -7,7 +7,7 @@ const Hero = () => {
   const { t, i18n } = useTranslation("global");
 
   const dots = [];
-  for (let i = 0; i < 450; i++) {
+  for (let i = 0; i < 435; i++) {
     dots.push(
       <div
         className=" rounded-lg w-6 duration-150 ease-out hover:ease-in  
@@ -20,8 +20,8 @@ const Hero = () => {
 
   return (
     <>
-      <div className="flex relative justify-center h-screen items-center ">
-        <div className="relative flex flex-col max-w-[902px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] max-xl:mr-0 xl:mr-[200px]">
+      <div className="flex relative justify-center items-center min-h-[500px]">
+        <div className="w-[100%] relative flex flex-col max-w-[1094px] min-w-[200px] max-md:px-[26px] md:px-[46px] lg:px-[96px] max-xl:mr-0 ">
           <Reveal>
             <h1 className="text-[#ebecf3] max-md:text-6xl text-8xl font-extrabold tracking-tighter relative z-20 mb-7">
               {t("hero.title")}
@@ -37,7 +37,7 @@ const Hero = () => {
             </h3>
           </SlideReveal>
           <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
-            <p className="mt-[24px] text-[#c0c1c7] text-lg relative z-20">
+            <p className="mt-[24px] text-[#c0c1c7] text-lg relative z-20 max-w-[700px]">
               {t("hero.description")}
             </p>
           </SlideReveal>
@@ -49,8 +49,8 @@ const Hero = () => {
             </a>
           </SlideReveal>
           <div
-            className="absolute flex flex-wrap w-[600px] h-[560px] max-[760px]:w-full  max-[760px]:right-0 
-       max-lg:right-[50px] right-[0px] top-[-100px] z-10 overflow-hidden  max-[580px]:right-[0px]"
+            className="absolute flex flex-wrap w-[700px] h-[560px] max-[760px]:w-full  max-[760px]:right-0 
+       max-lg:right-[50px] right-[96px] top-[-100px] z-10 overflow-hidden  max-[580px]:right-[0px]"
           >
             {dots}
           </div>

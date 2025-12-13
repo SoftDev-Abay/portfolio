@@ -5,20 +5,34 @@ import App from "./App";
 import global_eng from "./translations/eng/global.json";
 import global_rus from "./translations/rus/global.json";
 import i18next from "i18next";
-import { I18nextProvider } from "react-i18next";
+import { I18nextProvider, initReactI18next } from "react-i18next";
 
-i18next.init({
-  interpolation: { escapeValue: true },
-  lng: "eng",
-  resources: {
-    eng: {
-      global: global_eng,
+// 1. IMPORT THE DETECTOR
+import LanguageDetector from "i18next-browser-languagedetector";
+
+i18next
+  .use(LanguageDetector) // 2. USE THE DETECTOR
+  .use(initReactI18next)
+  .init({
+    interpolation: { escapeValue: true },
+    fallbackLng: "en",
+
+    // 3. ENABLE DETECTION
+    detection: {
+      order: ["path", "localStorage", "navigator"],
+      lookupFromPathIndex: 0,
+      checkWhitelist: true,
     },
-    rus: {
-      global: global_rus,
+
+    resources: {
+      en: {
+        global: global_eng,
+      },
+      ru: {
+        global: global_rus,
+      },
     },
-  },
-});
+  });
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

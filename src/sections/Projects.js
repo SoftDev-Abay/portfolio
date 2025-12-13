@@ -1,4 +1,3 @@
-import React from "react";
 import Project from "../components/Project";
 import Reveal from "../Framer/Reveal";
 import { useTranslation } from "react-i18next";
@@ -23,19 +22,7 @@ const Projects = (props) => {
         </div>
         <div className=" grid grid-cols-2 grid-rows-2 gap-10 mt-[34px] max-md:grid-cols-1">
           {projects.map((project) => (
-            <Project
-              key={project.name}
-              live={project.live}
-              github={project.github}
-              bigText={project.bigText}
-              smallText={project.smallText}
-              tech={project.tech}
-              imgs={project.imgs}
-              name={project.name}
-              modalHandlier={props.modalHandlier}
-              openSpan={project.openSpan}
-              heroImg={project.heroImg}
-            />
+            <Project key={project.name} {...project} />
           ))}
         </div>
       </div>

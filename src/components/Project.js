@@ -6,36 +6,22 @@ import Reveal from "../Framer/Reveal";
 const Project = ({
   live,
   github,
-  bigText,
   smallText,
   tech,
-  imgs,
   name,
-  modalHandlier,
-  openSpan,
   heroImg,
 }) => {
   return (
     <div className="flex flex-col ">
-      <div
-        onClick={() => {
-          modalHandlier({
-            live,
-            github,
-            bigText,
-            tech,
-            imgs,
-            name,
-          });
-        }}
-        className=" cursor-pointer relative overflow-hidden rounded-xl bg-[#232323]  group"
-      >
-        <img
-          className=" h-[232px] w-full  rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
-          src={heroImg}
-          alt=""
-        />
-      </div>
+      <a href={live} target="_blank">
+        <div className=" cursor-pointer relative overflow-hidden rounded-xl bg-[#232323]  group">
+          <img
+            className=" h-[232px] w-full  rounded-lg relative top-5 duration-150 group-hover:ease-in ease-out scale-85 group-hover:rotate-2 group-hover:scale-90"
+            src={heroImg}
+            alt=""
+          />
+        </div>
+      </a>
 
       <SlideReveal childrenWidth="100%" childrenOverflow="hidden">
         <div className="flex justify-between items-center gap-3 mt-5">
@@ -64,25 +50,7 @@ const Project = ({
         <p className="text-neon text-lg font-medium mt-3.5">{tech}</p>
       </SlideReveal>
       <SlideReveal childrenWidth="fit-content" childrenOverflow="hidden">
-        <p className="text-[#c0c1c7] text-xl mt-3.5">
-          {smallText}
-          <a
-            onClick={() => {
-              modalHandlier({
-                live,
-                github,
-                bigText,
-                tech,
-                imgs,
-                name,
-              });
-            }}
-            className="text-neon cursor-pointer"
-          >
-            {" "}
-            {openSpan} {" >"}
-          </a>
-        </p>
+        <p className="text-[#c0c1c7] text-xl mt-3.5">{smallText}</p>
       </SlideReveal>
     </div>
   );

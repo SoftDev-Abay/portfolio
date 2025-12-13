@@ -9,34 +9,35 @@
   "hero": {
     "title": "Hey, I'm Abay",
     "subtitle": { "white": "I'm a", "neon": "Full Stack Developer" },
-    "description": "I've spent the last 2 years building some pretty cool websites. I also play ping-pong and tennis (incase you've got spare time to play🏓). Let's connect!",
+    "description": "I've spent the last 3 years building some pretty cool software. I also play ping-pong and tennis (incase you've got spare time to play🏓). Let's connect!",
     "buttonText": "Contact me"
   },
   "about": {
     "title": "About",
     "description": [
-      "Hey! I'm Abay, if you haven't already gathered that by now. I'm a software engineer from Astana, Kazakhstan. I specialize in the frontend, primarily React, but love exploring new tools and technologies right for the job.",
-      "Currently, I am working in the company taking projects to build mobile and web applications, honing my skills building various commercial products. I also take different online courses always eager to learn, while also studying at my university,👨🏻‍🎓 going deeper into best practices and familiarizing myself with new programming languages).",
-      "Outside of work, I play tennis with my friends and family, read some books📗 both code related and not, and watch TV shows to advance my English proficiency.",
-      "I'm actively looking for new positions where I can prove my passion for code. If you think you've got an opening that I can fill, let's connect 🔗"
+      "Hey! I'm Abay, if you haven't understood that by now. I'm a Software Engineer in Hamburg, Germany🧑‍💻. I specialize in the Full Stack, primarily Typescript, but love exploring new tools and technologies right for the job.",
+      "Currently, I am working in the company building software for social service on web and mobile, honing my skills developing features and contributions across the stack. I also learn new technologies and ways to create better solutions, going deeper into best practices and software design principles.",
+      "Outside of work, I play tennis with my friends, read books📗 both code related and not, and watch TV shows.",
+      "I'm actively looking for new positions where I can prove my passion for engineering. If you think you've got an opening that I can fill, let's connect 🔗"
     ],
     "workStack": {
-      "title": "Use at work",
+      "title": "Used at work",
       "items": [
         "Typescript",
+        "JavaScript",
+        "Node.js",
         "React",
-        "Next",
-        "MySQL",
-        "Redux",
-        "TailwindCSS",
+        "Next.js",
+        "PostgreSQL",
+        "Jest",
         "SCSS",
         "HTML",
-        "GitHub"
+        "Git"
       ]
     },
     "funStack": {
       "title": "Familiar with",
-      "items": ["Golang", "Vue", "PostgreSQL", "MongoDB", "Python"]
+      "items": ["Golang", "Angular", "Vue", "MongoDB", "Python"]
     },
     "linksTitle": "My links"
   },
@@ -44,160 +45,43 @@
     "title": "Projects",
     "items": [
       {
-        "name": "Ronin",
-        "imgs": [
-          {
-            "src": "/img/projects/ronin/ronin-hero.png"
-          },
-          {
-            "src": "/img/projects/ronin/ronin-services.png"
-          },
-          {
-            "src": "/img/projects/ronin/ronin-faq.png"
-          },
-          {
-            "src": "/img/projects/ronin/ronin-about.png"
-          }
-        ],
-        "heroImg": "/img/projects/ronin/ronin-hero.png",
-        "tech": "REACT - NEXT - SCSS",
-        "smallText": "A modern landing page for a design agency, featuring a sleek design and smooth animations.",
-        "bigText": "Ronin is a modern landing page for a design agency, built with React, Next.js, and SCSS. The project showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe site features a dynamic hero section, services section, FAQ section, and an about section, all meticulously designed for seamless user engagement. The use of SCSS ensures a consistent and visually appealing design, while the integration of Framer Motion adds subtle yet engaging animations.\n\nThis project is a testament to my web development skills and passion for creating appealing web experiences.",
-        "github": "https://github.com/SoftDev-Abay/ronin-ui",
-        "live": "https://ronin-ui-seven.vercel.app/",
-        "openSpan": "Learn more"
-      },
-      {
-        "name": "HashCats",
-        "imgs": [
-          {
-            "src": "/img/projects/hash-cats/hash-cats-hero.png"
-          },
-          {
-            "src": "/img/projects/hash-cats/hash-cats-story.png"
-          },
-          {
-            "src": "/img/projects/hash-cats/hash-cats-grid.png"
-          },
-          {
-            "src": "/img/projects/hash-cats/hash-cats-tips.png"
-          },
-          {
-            "src": "/img/projects/hash-cats/hash-cats-roadmap.png"
-          },
-          {
-            "src": "/img/projects/hash-cats/hash-cats-footer.png"
-          }
-        ],
-        "heroImg": "/img/projects/hash-cats/hash-cats-hero.png",
-        "tech": "REACT - NEXT - SCSS",
-        "smallText": "A landing page for a cryptocurrency company, featuring a sleek design and smooth animations.",
-        "bigText": "Hash-Cats is a landing page for a cryptocurrency company, built with React, Next.js, and SCSS. The project showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe site features a dynamic hero section, services section, FAQ section, and an about section, all meticulously designed for seamless user engagement. The use of SCSS ensures a consistent and visually appealing design, while the integration of Framer Motion adds subtle yet engaging animations.\n\nThis project is a testament to my web development skills and passion for creating appealing web experiences.",
-        "github": "https://github.com/SoftDev-Abay/tera-hash",
-        "live": "https://hashcats.net",
-        "openSpan": "Learn more"
-      },
-      {
-        "name": "Esep",
-        "imgs": [
-          {
-            "src": "/img/projects/esep/public_graph.png"
-          },
-          {
-            "src": "/img/projects/esep/public_statistics.png"
-          },
-          {
-            "src": "/img/projects/esep/admin_constructor.png"
-          }
-        ],
-        "heroImg": "/img/projects/esep/public_graph.png",
-        "tech": "React - Redux - Node.js - MySQL",
-        "smallText": "A govermental platform for traking and managing reports",
-        "bigText": "A govermental platform from the company called DGSC used for traking and managing goverment reports.\n\nReports are structured in form of tables, there are respondents and admins. Admin are able to use uniquely created report constractor and assign reports to certain respondents. While respondents are able to fill in the relevant statistics and send them. Also on the platfrom reports are able to be aggregated, to allow to see data by for example regions or fileds.\n\nProject was crafted with Node.js, MySQL, ClickHouse, and on frontend were used Typescript, React, Redux and SCSS.",
-        "live": "https://esep.govtec.kz",
+        "name": "Kilanka",
+        "heroImg": "/img/projects/kilanka/kilanka_hero.png",
+        "tech": "React.js - Node.js - Typescript",
+        "smallText": "Modern and secure software for social service work featuring web and mobile solution.",
+        "live": "https://www.kilanka.de/",
         "openSpan": "Learn more"
       },
       {
         "name": "Providwell",
-        "imgs": [
-          {
-            "src": "/img/projects/providwell/public_index.png"
-          }
-        ],
         "heroImg": "/img/projects/providwell/public_index.png",
         "tech": "TypeScript - React Native - Firebase - Node.js",
         "smallText": "A mortgage data analytics platform for real estate professionals.",
-        "bigText": "Privdwell is a specialized mortgage data analytics platform designed to help real estate professionals gain comprehensive insights. Built with React Native for a cross-platform experience, it also leverages Firebase for real-time data and authentication, Node.js and TypeScript for backend services, and Python for advanced data processing.\n\nThis project showcases the power of a robust, cloud-centric architecture and the importance of delivering analytics efficiently across multiple devices. Privdwell emphasizes both technical scalability and user-friendly design, allowing real estate companies to make data-driven decisions with ease.",
         "live": "https://providwell.com/",
         "openSpan": "Learn more"
       },
       {
         "name": "Qazeli",
-        "imgs": [
-          {
-            "src": "/img/projects/qazeli/qazeli_placement_view.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_tariffs.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_map.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_confirm.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_validation.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_toast.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_room_view.png"
-          },
-          {
-            "src": "/img/projects/qazeli/qazeli_placement_edit.png"
-          }
-        ],
-        "heroImg": "/img/projects/qazeli/qazeli_room_view.png",
-        "tech": "REACT - NEXT - SCSS - TanStack Query",
-        "smallText": "An advanced admin panel for hotel management, featuring robust form validation and seamless CRUD operations.",
-        "bigText": "Qazeli is an admin panel designed for comprehensive hotel management. It includes complex forms with React Form Hook and Yup validations, ensuring data integrity and user-friendly interactions.\n\nThe project leverages Yandex Maps for precise location services, capturing longitude and latitude details. Additionally, it features a rich text formatter using Tiptap, providing a flexible and powerful text editing experience.\n\nCustom date pickers and telephone input masks enhance the user experience, while the multiselect feature implemented with React-Select allows for intuitive selection of multiple options. State management is handled using Zustand, ensuring efficient and predictable state changes.\n\nTanStack Query and Axios are used for making REST API calls, ensuring data is fetched and updated seamlessly. The UI components are built using the MUI library, providing a consistent and modern look and feel. Images are displayed using Swiper and Lightbox, offering a smooth and interactive viewing experience.\n\nAuthorization is implemented with JWT tokens, supporting both access and refresh tokens to ensure secure user sessions. The panel supports full CRUD operations for managing tariffs, placements, and rooms, making it a comprehensive solution for hotel management.",
-        "github": "https://github.com/SoftDev-Abay/crocos_qazeli",
-        "live": "https://crocos-qazeli.vercel.app/en/auth/sign-in",
+        "heroImg": "/img/projects/qazeli/qazeli_hero.png",
+        "tech": "Next.js - SCSS - TanStack Query",
+        "smallText": "A hotel management web application featuring browsing and booking rooms.",
+        "live": "https://qazeli.kz/en",
         "openSpan": "Learn more"
       },
       {
-        "name": "Jobpilot",
-        "imgs": [
-          {
-            "src": "/img/projects/jobpilot/jobpilot_hero.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_vacancies.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_testimonials.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_how.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_footer.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_featured_jobs.png"
-          },
-          {
-            "src": "/img/projects/jobpilot/jobpilot_companies.png"
-          }
-        ],
-        "heroImg": "/img/projects/jobpilot/jobpilot_hero.png",
-        "tech": "React - SCSS - Swiper.js",
-        "smallText": "A job search platform front page with a modern design.",
-        "bigText": "My Jobpilot project is a modern job search platform front page, designed with React, SCSS, and Swiper.js. It showcases my ability to create visually appealing and user-friendly interfaces, enhancing the user experience.\n\nThe project features a dynamic hero section, reusable job cards, swiping customers reviews. It also boasts a responsive design, ensuring optimal user experience across all devices.\n\nThis project reflects my commitment to creating modern, dynamic, and visually captivating web experiences.",
-        "github": "https://github.com/SoftDev-Abay/jobpilot-testtask",
-        "live": "https://jobpilot-eight.vercel.app/",
+        "name": "Ronin",
+        "heroImg": "/img/projects/ronin/ronin-hero.png",
+        "tech": "React.js - Next.js - SCSS",
+        "smallText": "A modern landing page for a design agency, featuring a sleek design and smooth animations.",
+        "live": "https://ronindsgn.com",
+        "openSpan": "Learn more"
+      },
+      {
+        "name": "HashCats",
+        "heroImg": "/img/projects/hash-cats/hash-cats-hero.png",
+        "tech": "React.js - Next.js - SCSS",
+        "smallText": "A landing page for a cryptocurrency company, featuring a sleek design and smooth animations.",
+        "live": "https://hashcats.net",
         "openSpan": "Learn more"
       }
     ]
@@ -205,6 +89,43 @@
   "experince": {
     "title": "Experience",
     "items": [
+      {
+        "companyName": "Kilanka",
+        "position": "Software Engineer",
+        "location": "Hamburg, Germany",
+        "date": "09/2025 - Present",
+        "text": "Currently working on developing and maintaining advanced SaaS application, focusing on building scalable, high-performance features using modern web technologies and ensuring a seamless user experience.",
+        "tech": [
+          "React.js",
+          "Node.js",
+          "TypeScript",
+          "JavaScript",
+          "Jest",
+          "SCSS",
+          "PostgreSQL",
+          "Docker",
+          "Git"
+        ],
+        "link": "https://www.kilanka.de"
+      },
+      {
+        "companyName": "Mvoter",
+        "position": "Full-stack developer",
+        "location": "Astana, Kazakhstan",
+        "date": "10/2023 - Present",
+        "text": "While working at DGSC, I architectured and build a frontend layer of access matrix platform, with dedicated client and admin dashboards, implementing real-time data updates of approval chains and automated deployment.",
+        "tech": [
+          "React.js",
+          "Typescript",
+          "Redux",
+          "TailwindCSS",
+          "Node.js",
+          "CI/CD",
+          "Docker",
+          "Git"
+        ],
+        "link": "https://govtec.kz/"
+      },
       {
         "companyName": "DGSC",
         "position": "Full-stack developer",
@@ -221,21 +142,6 @@
           "ClickHouse"
         ],
         "link": "https://govtec.kz/"
-      },
-      {
-        "companyName": "Mobile Market",
-        "position": "Full-stack developer",
-        "location": "Astana, Kazakhstan",
-        "date": "01/2023 - 10/2023",
-        "text": "During my stay at this company I was working on projects coming from Kazakhstan and USA, taking various projects on both web and mobile platforms, working on commercial projects, writing clean and maintainable code.",
-        "tech": [
-          "React",
-          "React Native",
-          "Typescript",
-          "Node.js",
-          "CSS",
-          "Firebase"
-        ]
       }
     ]
   },
