@@ -44,8 +44,8 @@ const Navbar = () => {
       "
       >
         <a
-          // href={`/assets/${t("navbar.resumeName")}`}
-          href={resumeURL}
+          href={`/assets/${t("navbar.resumeName")}`}
+          // href={resumeURL}
           target="_blank"
           className="relative z-10"
         >
